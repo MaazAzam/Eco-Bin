@@ -1,2 +1,2 @@
 # Eco-Bin
-An automated garbage sorter using Google Cloud Vision API integrated with Python and Arduino IDE.
+An automated garbage sorter using Google Cloud Vision API integrated with Python and Arduino IDE. An ultrasonic sensor is used to send a signal to the Google Vision API that enables the camera to take a picture and process the image to determine what type of garbage is inserted. From here, the Arduino micro-controller is used to gurn the motor either clockwise or counter-clockwise to place the trash in the appropriate bin.
